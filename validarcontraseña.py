@@ -1,8 +1,18 @@
-#indentificar y validadr una contaseña
- contraseña=input("ingrese la contraseña")
-if contraseña == "clave123":
-     print("acceso permitido")
+#NOMBRE
+#Verificador de contraseña
+
+#ENTRADA
+#Contraseña ingresada por el usuario
+
+#SALIDA
+#Mostrar si la contraseña es permitida o denegada
+
+#PROCESO
+#Comprobar si la contraseña es permitida o denegada
+
+Contraseña = str(input("Ingrese la contraseña:"))
+
+if Contraseña == "clave123":
+  print("Acceso permitido.")
 else:
-     print("acceso denegado:")
-
-
+  print("Acceso denegado.")
